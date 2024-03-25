@@ -2,4 +2,4 @@
 
 Група ПЗПІ-21-7
 Пасенко Катерина
-BandBridge                                                                                                                                                                                                            
+BandBridge
