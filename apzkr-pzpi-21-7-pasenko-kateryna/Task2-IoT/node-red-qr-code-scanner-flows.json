@@ -1,0 +1,108 @@
+[
+    {
+        "id": "3a21838f966932fb",
+        "type": "tab",
+        "label": "Поток 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1cf852b91020fbe8",
+        "type": "http in",
+        "z": "3a21838f966932fb",
+        "name": "",
+        "url": "/scan",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 270,
+        "y": 340,
+        "wires": [
+            [
+                "e58285ae4d7df6c2"
+            ]
+        ]
+    },
+    {
+        "id": "e58285ae4d7df6c2",
+        "type": "qrdecode",
+        "z": "3a21838f966932fb",
+        "name": "",
+        "x": 680,
+        "y": 340,
+        "wires": [
+            [
+                "736fce81371c239f",
+                "6b4b9b82cf11fa0c"
+            ]
+        ]
+    },
+    {
+        "id": "736fce81371c239f",
+        "type": "function",
+        "z": "3a21838f966932fb",
+        "name": "function",
+        "func": "if (msg.payload && msg.payload.value) {\n    const cleanedValue = msg.payload.value.replace(/\"/g, '');\n\n    const values = cleanedValue.split('-');\n\n    if (values.length === 3) {\n        const userId = values[0].trim();\n        const eventId = values[1].trim();\n        const seatId = values[2].trim();\n\n        const data = { userId, eventId, seatId };\n        \n        msg.payload = data;\n        return msg;\n    } else {\n        msg.payload = { error: 'Incorrect number of values in the payload' };\n        return msg;\n    }\n} else {\n   \n    msg.payload = { error: 'Value property is missing in the payload' };\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 340,
+        "wires": [
+            [
+                "b1f8c5722709cdb3",
+                "b42c7854fbbf98f5"
+            ]
+        ]
+    },
+    {
+        "id": "b1f8c5722709cdb3",
+        "type": "http response",
+        "z": "3a21838f966932fb",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 1400,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "6b4b9b82cf11fa0c",
+        "type": "debug",
+        "z": "3a21838f966932fb",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b42c7854fbbf98f5",
+        "type": "debug",
+        "z": "3a21838f966932fb",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 200,
+        "wires": []
+    }
+]
