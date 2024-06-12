@@ -1,0 +1,171 @@
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.profile-title {
+    text-align: center;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.detail-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.edit-button {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #5500ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.edit-button:hover {
+    background-color: #5100b3;
+}
+
+
+.delete-button {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.delete-button:hover {
+    background-color: #880101;
+}
+
+.export-button {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #5500ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.export-button:hover {
+    background-color: #5100b3;
+}
+
+.tabs button {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #5500ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.tabs button:hover {
+    background-color: #5100b3;
+}
+
+.tickets-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+.ticket-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.ticket-label {
+    font-weight: bold;
+}
+
+.qr-code {
+    margin-top: 10px;
+    max-width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.download-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #5500ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: #5100b3;
+}
+
+.ticket-item {
+    display: block;
+    border: 2px solid #5500ff;
+    border-radius: 20px;
+}

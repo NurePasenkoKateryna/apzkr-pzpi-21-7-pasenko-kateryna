@@ -1,0 +1,147 @@
+.band-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.band-page h2 {
+    margin-top: 0;
+}
+
+.band-details {
+    margin-top: 20px;
+}
+
+.band-details p {
+    margin: 5px 0;
+}
+
+.band-details ul {
+    padding-left: 20px;
+}
+
+.member-card-band {
+    list-style: none;
+    border: #6d57ff solid 2px;
+    display: flex;
+    width: 170px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.member-card-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.remove-member {
+    background-color: #9a8cff;
+    width: 20px;
+    height: 35px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.remove-member:hover {
+    background-color: #6d57ff;
+}
+
+
+.delete-band-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #ff7e7e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.delete-band-btn:hover {
+    background-color: #ff2e2e;
+}
+
+.edit-band-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.edit-band-btn:hover {
+    background-color: #882eff;
+}
+
+.add-member-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #18a400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.add-member-btn:hover {
+    background-color: #29862d;
+}
+
+.remove-member {
+    background-color: #9a8cff;
+    width: 20px;
+    height: 35px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.remove-member:hover {
+    background-color: #6d57ff;
+}
+
+.admin-actions {
+    display: block;
+
+}

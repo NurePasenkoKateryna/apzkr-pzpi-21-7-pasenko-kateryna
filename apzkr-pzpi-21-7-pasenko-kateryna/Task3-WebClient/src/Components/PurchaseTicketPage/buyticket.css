@@ -1,0 +1,49 @@
+.purchase-ticket-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.purchase-ticket-container h2 {
+    text-align: center;
+}
+
+.purchase-ticket-container .form-group {
+    margin-bottom: 15px;
+}
+
+.purchase-ticket-container label {
+    display: block;
+    font-weight: bold;
+}
+
+.purchase-ticket-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.purchase-ticket-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #b67eff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.purchase-ticket-container button:hover {
+    background-color: #882eff;
+}
+
+.error {
+    color: #ff0000;
+    margin-bottom: 15px;
+    text-align: center;
+}

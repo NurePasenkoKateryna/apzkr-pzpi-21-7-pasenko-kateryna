@@ -1,0 +1,89 @@
+.EventsPage {
+    text-align: center;
+}
+
+.EventsPage-header {
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filters input, .filters select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event-card {
+    background-color: #f9f9f9;
+    border: 2px solid #be9eff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.event-card h3 {
+    margin-top: 0;
+}
+
+.event-card p {
+    margin: 5px 0;
+}
+
+.view-event-button {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.view-event-button:hover {
+    background-color: #882eff;
+}
+
+.create-event-button {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.create-event-button:hover {
+    background-color: #882eff;
+}

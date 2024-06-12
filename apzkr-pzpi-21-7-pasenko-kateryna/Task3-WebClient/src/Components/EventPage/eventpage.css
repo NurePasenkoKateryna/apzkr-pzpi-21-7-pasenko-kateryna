@@ -1,0 +1,191 @@
+.event-page {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.event-page h2 {
+    margin-top: 0;
+}
+
+.event-details {
+    margin-top: 20px;
+}
+
+.event-details p {
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+}
+
+.loading {
+    font-style: italic;
+    color: #666;
+}
+
+.purchase-ticket-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.purchase-ticket-btn:hover {
+    background-color: #882eff;
+}
+
+.edit-event-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.edit-event-btn:hover {
+    background-color: #882eff;
+}
+
+.delete-event-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    padding: 10px 20px;
+    background-color: #ff7e7e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.delete-event-btn:hover {
+    background-color: #ff2e2e;
+}
+
+.purchase-ticket-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.purchase-ticket-btn:hover {
+    background-color: #882eff;
+}
+
+.create-seat-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.create-seat-btn:hover {
+    background-color: #882eff;
+}
+
+.seat-actions {
+    display: flex;
+}
+
+.edit-seat-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.edit-seat-btn:hover {
+    background-color: #882eff;
+}
+
+.delete-seat-btn {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #ff7e7e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.delete-seat-btn:hover {
+    background-color: #ff2e2e;
+}

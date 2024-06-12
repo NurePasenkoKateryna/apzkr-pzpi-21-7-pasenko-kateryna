@@ -1,0 +1,54 @@
+.edit-seat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.edit-seat-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.edit-seat-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-seat-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.edit-seat-container select,
+.edit-seat-container input[type="number"] {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-seat-container button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b67eff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit-seat-container button:hover {
+    background-color: #882eff;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}

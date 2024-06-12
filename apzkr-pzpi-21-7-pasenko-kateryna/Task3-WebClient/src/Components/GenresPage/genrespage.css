@@ -1,0 +1,83 @@
+.genres-page {
+    padding: 20px;
+}
+
+.genre-header {
+    text-align: center;
+}
+
+.create-genre-button {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto 15px;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.create-genre-button:hover {
+    background-color: #882eff;
+}
+
+.genres-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.genre-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    border: #6d57ff solid 2px;
+}
+
+.genre-item h3 {
+    margin-top: 0;
+}
+
+.genre-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.genre-buttons button {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto 15px;
+    padding: 10px 20px;
+    background-color: #b67eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.genre-buttons button:hover {
+    background-color: #882eff;
+}
+
+.genre-buttons button + button {
+    margin-left: 10px;
+}
